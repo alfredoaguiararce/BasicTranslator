@@ -49,7 +49,8 @@ def get_completion(prompt, model="gpt-3.5-turbo-16k", temperature=0):
     )
     return response.choices[0].message["content"]
 
-st.header("Message GenGpt")
+st.header("Translation Gpt")
+st.write("Use this app to translate yout message to English, Spanish, Chinese and Korean at the same time.")
 st.divider()
 _input_text = st.text_area('Write your message : ', '')
 
