@@ -20,7 +20,7 @@ _input_text = None
 def get_translation(input_text):
     return  f"""
                 What is the translation to English, Spanish, Chinese and korean in that order for the text
-                which is delimited with triple backticks? please response in json format
+                which is delimited with triple backticks? please response in json format only with the translations
 
                 text: '''{input_text}'''
                 """
